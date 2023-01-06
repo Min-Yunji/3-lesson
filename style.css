@@ -1,0 +1,25 @@
+body{
+    background-image: url(https://media.istockphoto.com/photos/thoroughbred-horses-grazing-at-sunset-in-a-field-picture-id1349772438?b=1&k=20&m=1349772438&s=170667a&w=0&h=dzJsbcThM9uMYOZwXzZcvBl6jz6_PY38YSzwYfWqmtU=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.KAA{
+    width: 300px;
+    height: 250px;
+    border: 3px solid;
+    background-image: url(https://images.unsplash.com/photo-1553284966-19b8815c7817?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGhvcnNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    border-radius: 0px 50px 0px 50px;
+    transition: 2s;
+    margin-top: 100px;
+}
+
+.KAA:hover{
+    transform: scale(1.2);
+    transition: 2s;
+    box-shadow: 0px 0px 5px 10px black;
+    background-image: url(https://images.unsplash.com/photo-1553284965-fa61e9ad4795?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aG9yc2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+}
